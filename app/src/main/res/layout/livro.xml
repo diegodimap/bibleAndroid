@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/botao1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouGenesis"
+        android:text="GÊNESIS" />
+    
+    <Button
+        android:id="@+id/botao2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouExodo"
+        android:text="ÊXODO" />
+    
+    <Button
+        android:id="@+id/botao3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouLevitico"
+        android:text="LEVÍTICO" />
+    
+    <Button
+        android:id="@+id/botao4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouNumeros"
+        android:text="NÚMEROS" />
+    
+    <Button
+        android:id="@+id/botao5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouDeuteronomio"
+        android:text="DEUTERONÔMIO" />
+    
+    <Button
+        android:id="@+id/botao6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouJosue"
+        android:text="JOSUÉ" />
+    
+    <Button
+        android:id="@+id/botao7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouJuizes"
+        android:text="JUÍZES" />
+    
+    <Button
+        android:id="@+id/botao8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouRute"
+        android:text="RUTE" />
+    
+    <Button
+        android:id="@+id/botao9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouISamuel"
+        android:text="I SAMUEL" />
+    
+    <Button
+        android:id="@+id/botao10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIISamuel"
+        android:text="II SAMUEL" />
+   
+    <Button
+        android:id="@+id/botao11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIReis"
+        android:text="I REIS" />
+    
+    <Button
+        android:id="@+id/botao12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIIReis"
+        android:text="II REIS" />
+    
+    <Button
+        android:id="@+id/botao13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouICronicas"
+        android:text="I CRÔNICAS" />
+    
+    <Button
+        android:id="@+id/botao14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIICronicas"
+        android:text="II CRÔNICAS" />
+    
+    <Button
+        android:id="@+id/botao15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouEsdras"
+        android:text="ESDRAS" />
+    
+    <Button
+        android:id="@+id/botao16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouNeemias"
+        android:text="NEEMIAS" />
+    
+    <Button
+        android:id="@+id/botao17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouEster"
+        android:text="ESTER" />
+    
+    <Button
+        android:id="@+id/botao18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouJo"
+        android:text="JÓ" />
+    
+    <Button
+        android:id="@+id/botao19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouSalmos"
+        android:text="SALMOS" />
+    
+    <Button
+        android:id="@+id/botao20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouProverbios"
+        android:text="PROVÉRBIOS" />
+    
+    <Button
+        android:id="@+id/botao21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouEclesiastes"
+        android:text="ECLESIASTES" />
+    
+    <Button
+        android:id="@+id/botao22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouCanticos"
+        android:text="CÂNTICO DOS CÂNTICOS" />
+    
+    <Button
+        android:id="@+id/botao23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIsaias"
+        android:text="ISAÍAS" />
+    
+    <Button
+        android:id="@+id/botao24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouJeremias"
+        android:text="JEREMIAS" />
+    
+    <Button
+        android:id="@+id/botao25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouLamentacoes"
+        android:text="LAMENTAÇÕES DE JEREMIAS" />
+    
+    <Button
+        android:id="@+id/botao26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouEzequiel"
+        android:text="EZEQUIEL" />
+    
+    <Button
+        android:id="@+id/botao27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouDaniel"
+        android:text="DANIEL" />
+    
+    <Button
+        android:id="@+id/botao28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouOseias"
+        android:text="OSÉIAS" />
+    
+    <Button
+        android:id="@+id/botao29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouJoel"
+        android:text="JOEL" />
+    
+    <Button
+        android:id="@+id/botao30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouAmos"
+        android:text="AMÓS" />
+    
+    <Button
+        android:id="@+id/botao31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouObadias"
+        android:text="OBADIAS" />
+    
+    <Button
+        android:id="@+id/botao32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouJonas"
+        android:text="JONAS" />
+    
+    <Button
+        android:id="@+id/botao33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouMiqueias"
+        android:text="MIQUÉIAS" />
+    
+    <Button
+        android:id="@+id/botao34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouNaum"
+        android:text="NAUM" />
+    
+    <Button
+        android:id="@+id/botao35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouHabacuque"
+        android:text="HABACUQUE" />
+    
+    <Button
+        android:id="@+id/botao36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouSofonias"
+        android:text="SOFONIAS" />
+    
+    <Button
+        android:id="@+id/botao37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouAgeu"
+        android:text="AGEU" />
+    
+    <Button
+        android:id="@+id/botao38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouZacarias"
+        android:text="ZACARIAS" />
+    
+    <Button
+        android:id="@+id/botao39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouMalaquias"
+        android:text="MALAQUIAS" />
+    
+    <Button
+        android:id="@+id/botao40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouMateus"
+        android:text="MATEUS" />
+    
+    <Button
+        android:id="@+id/botao41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouMarcos"
+        android:text="MARCOS" />
+    
+    <Button
+        android:id="@+id/botao42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouLucas"
+        android:text="LUCAS" />
+    
+    <Button
+        android:id="@+id/botao43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouJoao"
+        android:text="JOÃO" />
+    
+    <Button
+        android:id="@+id/botao44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouAtos"
+        android:text="ATOS" />
+    
+    <Button
+        android:id="@+id/botao45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouRomanos"
+        android:text="ROMANOS" />
+    
+    <Button
+        android:id="@+id/botao46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouICorintios"
+        android:text="I CORÍNTIOS" />
+    
+    <Button
+        android:id="@+id/botao47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIICorintios"
+        android:text="II CORÍNTIOS" />
+    
+    <Button
+        android:id="@+id/botao48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouGalatas"
+        android:text="GÁLATAS" />
+    
+    <Button
+        android:id="@+id/botao49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouEfesios"
+        android:text="EFÉSIOS" />
+    
+    <Button
+        android:id="@+id/botao50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouFilipenses"
+        android:text="FILIPENSES" />
+    
+     <Button
+        android:id="@+id/botao51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouColossenses"
+        android:text="COLOSSENSES" />
+    
+    <Button
+        android:id="@+id/botao52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouITessalonicenses"
+        android:text="I TESSALONICENSES" />
+    
+    <Button
+        android:id="@+id/botao53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIITessalonicenses"
+        android:text="II TESSALONICENSES" />
+    
+    <Button
+        android:id="@+id/botao54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouITimoteo"
+        android:text="I TIMÓTEO" />
+    
+    <Button
+        android:id="@+id/botao55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIITimoteo"
+        android:text="II TIMÓTEO" />
+    
+    <Button
+        android:id="@+id/botao56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouTito"
+        android:text="TITO" />
+    
+    <Button
+        android:id="@+id/botao57"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouFilemom"
+        android:text="FILEMOM" />
+    
+    <Button
+        android:id="@+id/botao58"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouHebreus"
+        android:text="HEBREUS" />
+    
+    <Button
+        android:id="@+id/botao59"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouTiago"
+        android:text="TIAGO" />
+    
+    <Button
+        android:id="@+id/botao60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIPedro"
+        android:text="I PEDRO" />
+    
+    <Button
+        android:id="@+id/botao61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouAIIPedro"
+        android:text="II PEDRO" />
+    
+    <Button
+        android:id="@+id/botao62"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIJoao"
+        android:text="I JOÃO" />
+    
+    <Button
+        android:id="@+id/botao63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIIJoao"
+        android:text="II JOÃO" />
+    
+    <Button
+        android:id="@+id/botao64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouIIIJoao"
+        android:text="III JOÃO" />
+    
+    <Button
+        android:id="@+id/botao65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouJudas"
+        android:text="JUDAS" />
+    
+    <Button
+        android:id="@+id/botao66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ClicouApocalipse"
+        android:text="APOCALIPSE" />
+
+</LinearLayout>
+</ScrollView>

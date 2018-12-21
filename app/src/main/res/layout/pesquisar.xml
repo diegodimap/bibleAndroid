@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PESQUISAR TERMO NA BÍBLIA"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digite o termo a ser pesquisado:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/digitado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pesquisar por:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	            <RadioGroup
+			        android:id="@+id/radioTipoPesquisa"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" >
+
+	            <RadioButton
+	                android:id="@+id/descricaoRadio"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:checked="true"
+	                android:text="Pesquisar na Bíblia Inteira" />
+	
+	            <RadioButton
+	                android:id="@+id/responsaveisRadio"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Pesquisar no Novo Testamento" />
+	
+	            <RadioButton
+	                android:id="@+id/localRadio"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Pesquisar no Velho Testamento" />
+            
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/botaoPesquisar"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:onClick="pesquisou"
+                android:text="PESQUISAR" />   
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
